@@ -1,0 +1,31 @@
+/*VARIABLE*/
+
+$Color-H-F: #64b5f6;
+
+/*END VARIABLE*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: $Color-H-F;
+    color: #fff;
+    height: 80px;
+    padding-top: 5px;
+    .nav {
+        ul {
+            list-style-type: none;
+            li {
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+                a:hover {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
