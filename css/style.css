@@ -1,20 +1,133 @@
 /*VARIABLE*/
+
+
+/*font-family: 'Bangers',
+cursive;
+font-family: 'Noto Sans',
+sans-serif;
+font-family: 'Raleway',
+sans-serif;*/
+
+
 /*END VARIABLE*/
+
 body {
-  margin: 0;
-  padding: 0; }
+    background-color: #eee;
+    color: #4d6a67;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #4d6a67;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 20px 0;
+    font-family: 'Bangers', cursive;
+}
 
 .header {
-  background-color: #64b5f6;
-  color: #fff;
-  height: 80px;
-  padding-top: 5px; }
-  .header .nav ul {
-    list-style-type: none; }
-    .header .nav ul li a {
-      color: #fff;
-      text-decoration: none; }
-    .header .nav ul li a:hover {
-      font-weight: 600; }
+    background-color: #00868b;
+    color: #fff;
+    height: 100px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+}
+
+.header .nav ul {
+    list-style-type: none;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .nav ul li a:hover {
+    font-weight: 600;
+}
+
+
+/*=========================== Tabs-Menu ==============================================================================================================================*/
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tabs li {
+    display: block;
+    float: left;
+}
+
+.tabs {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+
+.tabs:after {
+    clear: both;
+    content: ' ';
+    display: table;
+}
+
+.tabs a {
+    background-color: #eee;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.tabs .active a {
+    background-color: #fff;
+}
+
+.tabs-content {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+main section {
+    text-align: center;
+}
+
+section figure img {
+    display: block;
+    height: 200px;
+    margin: 50px auto;
+    width: 200px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
