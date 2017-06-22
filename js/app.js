@@ -4,12 +4,12 @@ function validation() {
 }
 
 
-/*// Code pour la date.
+// Code pour la date.
 var d = new Date();
 document.getElementById("heure").innerHTML = d.toString();
 
 
-// Fonction pour le menu Tabs.
+//Fonction pour le menu Tabs.
 function openDistrib(evt, distribName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tab-content");
@@ -21,5 +21,5 @@ function openDistrib(evt, distribName) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
     document.getElementById(distribName).style.display = "block";
-    evt.currentTarget.className += " active";*/
+    evt.currentTarget.className += " active";
 }
