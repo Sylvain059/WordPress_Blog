@@ -6,7 +6,11 @@ function validation() {
 
 // Code pour la date.
 var d = new Date();
-document.getElementById("heure").innerHTML = d.toString();
+
+function date() {
+    document.getElementById("heure").innerHTML = d.toString();
+}
+setInterval(date, 1000);
 
 
 //Fonction pour le menu Tabs.
